@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Plugin settings file.
+ * Settings file.
  *
  * @package   report_plugins
  * @copyright 2019 - 2021 Mukudu Ltd - Bham UK
@@ -25,6 +25,8 @@
 defined('MOODLE_INTERNAL') || die();
 
 $ADMIN->add('reports', new admin_externalpage('reportconfigplugins', get_string('pluginname', 'report_plugins'),
-        "$CFG->wwwroot/report/plugins/index.php"));
+        "$CFG->wwwroot/report/plugins/index.php")
+    );
 
-$settings = null;
+$settings = null; // Ensure no default settings for this plugin.
+

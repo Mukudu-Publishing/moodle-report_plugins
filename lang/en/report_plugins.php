@@ -11,25 +11,24 @@
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 // GNU General Public License for more details.
 //
-// You should have received a copy of the GNU General Public License
+// You should have received a copy of the GNU GenerNew Activity Block Classal Public License
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * English Language file.
+ * English Language file
  *
- * @package   report_plugins
- * @copyright 2019 - 2021 Mukudu Ltd - Bham UK
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package    report_plugins
+ * @copyright  2021 Mukudu Publishing
+ * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-defined('MOODLE_INTERNAL') || die();
-
 $string['pluginname'] = 'Site Plugins Report';
+
+$string['eventreportviewed'] = 'Plugin report viewed';
+$string['eventreportdesc'] = 'The user with id "{$a}" viewed the site plugins report';
 
 $string['pluginenabled'] = 'Enabled';
 $string['plugininstalled'] = 'Installed';
 $string['plugintypes'] = 'Plugin Types';
-$string['pluginnumbers'] = 'Numbers';
+$string['pluginnumbers'] =  'Numbers';
 
-$string['eventreportviewed'] = 'Plugin report viewed';
-$string['eventreportdesc'] = 'The user with id "{$a}"  viewed the site plugins report';
